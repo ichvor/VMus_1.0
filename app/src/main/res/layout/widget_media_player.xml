@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Previous button -->
+    <ImageButton
+        android:id="@+id/prevButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_previous"
+        android:background="@null"
+        android:contentDescription="@string/prev" />
+
+    <!-- Play/Pause button -->
+    <ImageButton
+        android:id="@+id/playPauseButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_toRightOf="@id/prevButton"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_play"
+        android:background="@null"
+        android:contentDescription="@string/play_pause" />
+
+    <!-- Next button -->
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_toRightOf="@id/playPauseButton"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_next"
+        android:background="@null"
+        android:contentDescription="@string/next" />
+</RelativeLayout>

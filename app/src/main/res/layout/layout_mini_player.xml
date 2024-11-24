@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#5B5454"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Track title and artist -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/miniPlayerTrackTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Track Title"
+            android:textColor="#EBEBEB"
+            android:textColorHighlight="@color/colorOnPrimary"
+            android:textColorHint="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/miniPlayerArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Artist Name"
+            android:textColor="#FD8484"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Previous track button -->
+    <ImageButton
+        android:id="@+id/miniPlayerPreviousButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_previous"
+        android:background="@null"
+        android:contentDescription="@string/previous_track" />
+
+    <ImageButton
+        android:id="@+id/miniPlayerPlayPauseButton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_play"
+        android:background="@null"
+        android:contentDescription="@string/play_pause" />
+
+    <ImageButton
+        android:id="@+id/miniPlayerNextButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_next"
+        android:background="@null"
+        android:contentDescription="@string/next_track" />
+</LinearLayout>

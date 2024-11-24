@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VMus</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_pause">Play or Pause</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="track_cover">Track cover</string>
+    <string name="track_title">Track Title</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="previous_track">Previous track</string>
+    <string name="next_track">Next track</string>
+    <string name="new_playlist_name">Enter Playlist Name</string>
+    <string name="add_playlist">Add Playlist</string>
+</resources>
